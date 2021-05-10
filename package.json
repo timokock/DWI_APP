@@ -8,12 +8,32 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.13.4",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-community/netinfo": "^5.9.9",
+    "@react-navigation/bottom-tabs": "^5.10.1",
+    "@react-navigation/native": "5.3.2",
+    "@react-navigation/stack": "^5.11.0",
+    "apisauce": "1.1.1",
     "expo": "~39.0.2",
+    "expo-image-picker": "~9.1.0",
+    "expo-location": "~9.0.0",
+    "expo-permissions": "^10.0.0",
     "expo-status-bar": "~1.0.2",
+    "formik": "2.1.7",
+    "lottie-react-native": "^3.5.0",
+    "moment": "^2.29.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-art": "^1.0.0",
+    "react-native-gesture-handler": "~1.7.0",
+    "react-native-progress": "^4.1.2",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-safe-area-context": "3.1.4",
+    "react-native-screens": "~2.10.1",
+    "react-native-web": "~0.13.12",
+    "yup": "0.29.3"
   },
   "devDependencies": {
     "@babel/core": "~7.9.0"
