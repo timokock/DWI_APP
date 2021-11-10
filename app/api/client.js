@@ -8,9 +8,13 @@ const apiClient = create({
 const get = apiClient.get;
 
 apiClient.get = async (url, params, axiosConfig) => {
-    // Before
-    await get(url, params, axiosConfig);
-    // After
+    const response = await get(url, params, axiosConfig);
+    if(response.ok) {
+        cache.store(url, response.data)
+        return response
+    }
+    const date = await cache.get(url)
+    return data ? { ok: true, data } : responses
 };
 
 export default apiClient;
